@@ -1,0 +1,7 @@
+apiVersion: trial.tsuzu.xyz/v1alpha1
+kind: RemoteRepository
+metadata:
+  name: remoterepository-sample
+spec:
+  # Add fields here
+  foo: bar

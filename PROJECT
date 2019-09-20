@@ -1,3 +1,7 @@
 version: "2"
 domain: tsuzu.xyz
 repo: github.com/cs3238-tsuzu/deploy-pipeline
+resources:
+- group: trial
+  version: v1alpha1
+  kind: RemoteRepository
